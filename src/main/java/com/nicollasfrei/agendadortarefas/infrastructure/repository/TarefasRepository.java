@@ -1,9 +1,10 @@
 package com.nicollasfrei.agendadortarefas.infrastructure.repository;
 
+import com.nicollasfrei.agendadortarefas.infrastructure.entity.TarefasEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TarefasRepository extends MongoRepository<TarefasRepository, String> {
+public interface TarefasRepository extends MongoRepository<TarefasEntity, String> {
 
 }
